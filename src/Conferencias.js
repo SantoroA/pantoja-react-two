@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Conferencias extends Component {
-  render() {
-    return <h1>COnferências</h1>;
-  }
+export default function Conferencias() {
+  return <h1 style={{ marginTop: 100 }}>Conferências</h1>;
 }
-export default Conferencias;

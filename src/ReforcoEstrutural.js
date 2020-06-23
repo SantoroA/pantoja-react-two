@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-class ReforcoEstrutural extends Component {
-  render() {
-    return <h1>Reforço Estrutural</h1>;
-  }
+export default function ReforcoEstrutural() {
+  return <h1 style={{ marginTop: 100 }}>Reforço Estrutural</h1>;
 }
-export default ReforcoEstrutural;

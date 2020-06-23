@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Alunos extends Component {
-  render() {
-    return <h1>Alunos</h1>;
-  }
+export default function Alunos() {
+  return <h1 style={{ marginTop: 100 }}>Alunos</h1>;
 }
-export default Alunos;

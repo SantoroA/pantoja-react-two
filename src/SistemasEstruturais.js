@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-class SistemasEstruturais extends Component {
-  render() {
-    return <h1>Livros </h1>;
-  }
+export default function SistemasEstruturais() {
+  return <h1 style={{ marginTop: 100 }}>Sistemas Estruturais</h1>;
 }
-export default SistemasEstruturais;

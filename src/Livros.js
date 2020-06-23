@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Livros extends Component {
-  render() {
-    return <h1>Livros </h1>;
-  }
+export default function Livros() {
+  return <h1 style={{ marginTop: 100 }}>Livros</h1>;
 }
-export default Livros;

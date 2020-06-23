@@ -1,8 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Patologia extends Component {
-  render() {
-    return <h1>Livros </h1>;
-  }
+export default function Patologia() {
+  return <h1 style={{ marginTop: 100 }}>Patologia</h1>;
 }
-export default Patologia;
