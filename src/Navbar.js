@@ -129,7 +129,7 @@ class Navbar extends Component {
                   <NavLink
                     activeClassName="Navbar-active"
                     className="dropdown-item"
-                    to="/sistemas_estruturais"
+                    to="/sistemas-estruturais"
                   >
                     Sistemas Estruturais
                   </NavLink>
