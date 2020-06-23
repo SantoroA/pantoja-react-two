@@ -31,10 +31,18 @@ class Navbar extends Component {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="navbar-nav">
-              <NavLink className="nav-item nav-link" to="/">
+              <NavLink
+                activeClassName="Navbar-active"
+                className="nav-item nav-link"
+                to="/"
+              >
                 Curriculum
               </NavLink>
-              <NavLink className="nav-item nav-link" to="/downloads">
+              <NavLink
+                activeClassName="Navbar-active"
+                className="nav-item nav-link"
+                to="/downloads"
+              >
                 Downloads
               </NavLink>
 
@@ -53,13 +61,25 @@ class Navbar extends Component {
                   Publicações
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/journals">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/journals"
+                  >
                     Journals
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/conferencias">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/conferencias"
+                  >
                     Conferências
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/livros">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/livros"
+                  >
                     Livros
                   </NavLink>
                 </div>
@@ -77,10 +97,18 @@ class Navbar extends Component {
                   Colaboradores
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/parceiros">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/parceiros"
+                  >
                     Parceiros
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/alunos">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/alunos"
+                  >
                     Alunos
                   </NavLink>
                 </div>
@@ -98,13 +126,25 @@ class Navbar extends Component {
                   Cursos
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink className="dropdown-item" to="/sistemas_estruturais">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/sistemas_estruturais"
+                  >
                     Sistemas Estruturais
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/patologia">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/patologia"
+                  >
                     Patologia
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/reforco-estrutural">
+                  <NavLink
+                    activeClassName="Navbar-active"
+                    className="dropdown-item"
+                    to="/reforco-estrutural"
+                  >
                     Reforço Estrutural
                   </NavLink>
                 </div>
